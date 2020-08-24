@@ -1,6 +1,8 @@
 {{- $section4 := .Site.Params.section4 }}
 {{- $title    := index $section4 "title" }}
 {{- $subtitle := index $section4 "subtitle" }}
+{{- $text := index $section4 "text" }}
+{{- $url := index $section4 "url" }}
 {{- $clients  := index $section4 "clients" }}
 <section class="section is-medium section-secondary">
   <div class="container">
@@ -9,6 +11,11 @@
       <h2 class="title is-2 light-text is-spaced">{{ $title }}</h2>
       {{- with $subtitle }}
       <h3 class="subtitle is-5 light-text">{{ . }}</h3>
+      <a href="{{ $url }}">
+        <span class="button signup-button rounded notification">
+          {{ $text }}
+        </span>
+      </a>
       {{- end }}
     </div>
 

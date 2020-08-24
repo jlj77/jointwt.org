@@ -67,6 +67,8 @@ params:
     title: How does Twt compare to Twitter™?
     subtitle: Twt and thus all Twt.social pods (that’s what we call an individual server) is actually pretty similar to Twitter™ so if you’ve used Twitter™ before you’ll feel right at home!
     clients:
+    text: Learn more
+    url: /compare/
 
   footer:
     # Logo (from /images/logos/___)
