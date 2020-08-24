@@ -70,7 +70,7 @@ params:
 
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: logo.svg
     # Social Media Title
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
@@ -80,34 +80,10 @@ params:
       icon: github
     bulmalogo: false
     quicklinks:
+
       column1:
-        title: "Product"
-        links:
-        - text: Discover features
-          link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
-      column2:
         title: "Docs"
         links:
-        - text: Get started
-          link: /
-        - text: User guides
-          link: /
-        - text: Admin guide
-          link: /
+
         - text: Developers
-          link: /
-      column3:
-        title: "Blog"
-        links:
-        - text: Latest news
-          link: /blog/first
-        - text: Tech articles
-          link: /blog/second
+          link: https://dev.twtxt.net
