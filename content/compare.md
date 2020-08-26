@@ -1,9 +1,8 @@
 ---
-title: "Compare"
+title: "How does Twt compare to Twitter™?"
 date: 2020-08-23T23:22:01-07:00
 draft: false
 ---
-### How does Twt compare to Twitter™?
 
 Twt and thus all [Twt.social](https://twt.social) pods (_that's what we call an individual server_) is _actually_ pretty similar to Twitter™ so if you've used Twitter™ before you'll feel right at home!
 
@@ -14,7 +13,7 @@ You can:
 - Tag and search for twts by #hashtag or @mention
 - Upload media, small photos and have them displayed inline with your twts
 
-YOu can also update your profile, say a little about yourself, upload a mug shot (_or if you don't we'll create an automated avatar for you!_).
+You can also update your profile, say a little about yourself, upload a mug shot (_or if you don't we'll create an automated avatar for you!_).
 
 **Unlike** Twitter™ however:
 

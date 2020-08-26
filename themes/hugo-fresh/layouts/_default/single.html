@@ -4,6 +4,11 @@
     {{ partial "meta.html" . }}
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
     {{ partial "css.html" . }}
+    <style type="text/css">
+    ul {
+      list-style: square inside;
+    }
+    </style>
   </head>
   <body>
     <!-- Preloader -->
