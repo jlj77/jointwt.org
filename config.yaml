@@ -26,13 +26,17 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: No ads. No tracking. Open source.
+    title: No ads. No tracking. No algorithms.
     # Hero subtitle (optional)
-    subtitle: Twt has no ads and will never track its users. On Twt you own your content and you are free to run your own pod on a server you control.
+    subtitle: Twt has no ads and will never track its users. On Twt you own your content and since its open source you are free to run your own pod on a server you control.
     # Button text
     buttontext: Learn more
     # Where the main hero button links to
     buttonlink: "#section2"
+    # Button text
+    buttontext2: Try out now!
+    # Where the main hero button links to
+    buttonlink2: "https://twtxt.net"
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/___.svg)
