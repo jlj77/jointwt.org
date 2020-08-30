@@ -25,10 +25,12 @@ params:
     name: "Open Sans"
     sizes: [400,600]
   hero:
-    # Main hero title
-    title: No ads. No tracking. No algorithms.
+    # Main hero titles (up to 3)
+    title1: No ads.
+    title2: No tracking.
+    title3: No algorithms.
     # Hero subtitle (optional)
-    subtitle: Twt has no ads and will never track its users. On Twt you own your content and since its open source you are free to run your own pod on a server you control.
+    subtitle: Twt has no ads, will never track its users and you choose what goes on your timeline not an algorithm. On Twt you own your content and since its open source you are free to run your own pod on a server you control.
     # Button text
     buttontext: Learn more
     # Where the main hero button links to
