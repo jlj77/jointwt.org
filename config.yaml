@@ -36,7 +36,7 @@ params:
     # Where the main hero button links to
     buttonlink: "#section2"
     # Button text
-    buttontext2: Try out now!
+    buttontext2: Join now!
     # Where the main hero button links to
     buttonlink2: "https://twtxt.net"
     # Hero image (from static/images/___)
