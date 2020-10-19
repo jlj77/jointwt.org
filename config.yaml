@@ -46,6 +46,8 @@ params:
 
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
+  - title: Apps
+    url: https://jointwt.org/goryon/
   - title: Source
     url: https://github.com/jointwt
   - title: Documentation
