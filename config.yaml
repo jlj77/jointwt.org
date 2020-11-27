@@ -99,6 +99,7 @@ params:
     subtitle: ->
       Get started with Twt and join a Twt.social pod today! Simply follow these
       three easy steps and join using our Web App or Mobile App (Goryon).
+    image: logos/logo.svg
     buttontext: Learn more
     buttonlink: /getting-started/
 
