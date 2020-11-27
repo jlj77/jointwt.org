@@ -1,36 +1,45 @@
-baseURL: http://jointwt.org/
+---
+#baseURL: http://jointwt.org/
+baseURL: http://localhost:1313/
 languageCode: en-us
 title: Join twt
 theme: hugo-fresh
-googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+googleAnalytics:
+
 # Disables warnings
 disableKinds:
-- taxonomy
-- taxonomyTerm
+  - taxonomy
+  - taxonomyTerm
 markup:
   goldmark:
     renderer:
-      unsafe: true # Allows you to write raw html in your md files
+      unsafe: true
 
 params:
-  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  # Open graph allows easy social sharing. If you don't want it you can set it
+  # # to false or just delete the variable
   openGraph: true
   # Used as meta data; describe your site to make Google Bots happy
-  description: Self-Hosted Decentralised microBlogging platform. No ads, no tracking, your content, your data!
+  description: >-
+    Self-Hosted Decentralised microBlogging platform.
+    No ads, no tracking, your content, your data!
   navbarlogo:
-  # Logo (from static/images/logos/___)
+    # Logo (from static/images/logos/___)
     image: logos/logo.svg
     link: /
   font:
     name: "Open Sans"
-    sizes: [400,600]
+    sizes: [400, 600]
   hero:
     # Main hero titles (up to 3)
     title1: No ads.
     title2: No tracking.
     title3: No algorithms.
     # Hero subtitle (optional)
-    subtitle: Twt has no ads, will never track its users and you choose what goes on your timeline not an algorithm. On Twt you own your content and since it's open source you are free to run your own pod on a server you control.
+    subtitle: >-
+      Twt has no ads, will never track its users and you choose what goes on
+      your timeline not an algorithm. On Twt you own your content and since
+      it's open source you are free to run your own pod on a server you control.
     # Button text
     buttontext: Learn more
     # Where the main hero button links to
@@ -46,34 +55,60 @@ params:
 
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Apps
-    url: https://jointwt.org/goryon/
-  - title: Source
-    url: https://github.com/jointwt
-  - title: Documentation
-    url: https://dev.twtxt.net
-  - title: Twt.social
-    url: https://twt.social
-    button: true
+    - title: Geting Started
+      url: https://jointwt.org/getting-started/
+    - title: Apps
+      url: https://jointwt.org/goryon/
+    - title: Source
+      url: https://github.com/jointwt
+    - title: Documentation
+      url: https://dev.twtxt.net
+    - title: Twt.social
+      url: https://twt.social
+      button: true
 
   section2:
     title: Decentralized internet
     subtitle: Your social media the way it should be.
     features:
-    - title: Open source project
-      text: Twt is a decentralized micro-blogging platform that adheres to a simple standard called <a href="https://twtxt.readthedocs.io/en/latest/">twtxt</a>. You can <a href="https://github.com/jointwt/twtxt">download it</a> and run you own.
-      # Icon (from /images/illustrations/icons/___.svg)
-      icon: laptop-globe
-    - title: Hosted instances
-      text: Not a technical person? No worries. The creators of this project also created Twt.social where you can start your own small community and join the larger Twt “social media” network with family, friends and like minded folks. We bring the tech, you bring the conversations. Learn more at <a href="https://twt.social">Twt.social</a>.
-      icon: doc-sync
-    - title: RESTful API
-      text: Use our API to build your own mobile api or CLI command application that integrates with txtxt.
-      icon: mobile-feed
+      - title: Open source project
+        text: >-
+          Twt is a decentralized micro-blogging platform that adheres to a
+          simple standard called
+          <a href="https://twtxt.readthedocs.io/en/latest/">twtxt</a>.
+          You can <a href="https://github.com/jointwt/twtxt">download it</a>
+          and run you own.
+        # Icon (from /images/illustrations/icons/___.svg)
+        icon: laptop-globe
+      - title: Hosted instances
+        text: >-
+          Not a technical person? No worries. The creators of this project
+          also created Twt.social where you can start your own small community
+          and join the larger Twt “social media” network with family, friends
+          and like minded folks. We bring the tech, you bring the conversations.
+          Learn more at <a href="https://twt.social">Twt.social</a>.
+        icon: doc-sync
+      - title: RESTful API
+        text: >-
+          Use our API to build your own mobile api or CLI command application
+          that integrates with txtxt.
+        icon: mobile-feed
+
+  section3:
+    title: Getting started with Twt
+    subtitle: ->
+      Get started with Twt and join a Twt.social pod today! Simply follow these
+      three easy steps and join using our Web App or Mobile App (Goryon).
+    buttontext: Learn more
+    buttonlink: /getting-started/
 
   section4:
     title: How does Twt compare to Twitter™?
-    subtitle: Twt and thus all Twt.social pods (that’s what we call an individual server) is actually pretty similar to Twitter™ so if you’ve used Twitter™ before you’ll feel right at home!
+    subtitle: >-
+      Twt and thus all Twt.social pods
+      (that’s what we call an individual server)
+      is actually pretty similar to Twitter™ so if you’ve used Twitter™
+      before you’ll feel right at home!
     clients:
     text: Learn more
     url: /compare/
@@ -85,15 +120,14 @@ params:
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/jointwt/twtxt
-      # Icons are from Font Awesome
-      icon: github
+      - link: https://github.com/jointwt/twtxt
+        # Icons are from Font Awesome
+        icon: github
     bulmalogo: false
     quicklinks:
 
       column1:
         title: "Docs"
         links:
-
-        - text: Developers
-          link: https://dev.twtxt.net
+          - text: Developers
+            link: https://dev.twtxt.net
