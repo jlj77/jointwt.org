@@ -1,6 +1,5 @@
 ---
-#baseURL: http://jointwt.org/
-baseURL: http://localhost:1313/
+baseURL: http://jointwt.org/
 languageCode: en-us
 title: Join twt
 theme: hugo-fresh
